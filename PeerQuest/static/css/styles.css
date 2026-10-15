@@ -1,0 +1,301 @@
+/* Import Google Font "Press Start 2P" */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fffbfa;
+}
+
+/* Hero Page Background */
+.hero {
+    background-image: url('https://i.pinimg.com/originals/64/22/1a/64221a8c61766712a25b427ba130ec59.gif');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: rgb(17, 17, 17);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 40px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.hero .cta-button {
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: #860808;
+    color: rgb(96, 88, 88);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero .cta-button:hover {
+    background-color: #8f1406;
+}
+
+/* Navigation */
+nav {
+    background-color: #333;
+    padding: 1rem;
+    color: rgb(232, 192, 31);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo {
+    font-size: 24px;
+    font-family: 'Press Start 2P', cursive;  
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: rgb(91, 83, 83);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Login Page Styles */
+.login-container,
+.register-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    text-align: center;
+    padding: 20px;
+}
+
+.login-container h2,
+.register-container h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-family: 'Press Start 2P', cursive; 
+}
+
+.login-container input,
+.register-container input {
+    padding: 12px;
+    margin: 10px 0;
+    width: 250px;
+    font-size: 18px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.login-container button,
+.register-container button {
+    padding: 12px;
+    width: 250px;
+    background-color: #8f1406;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-container button:hover,
+.register-container button:hover {
+    background-color: #8f1406;
+}
+
+.login-container p,
+.register-container p {
+    margin-top: 20px;
+}
+
+.login-container a,
+.register-container a {
+    color: #8f1406;
+    text-decoration: none;
+}
+
+.login-container a:hover,
+.register-container a:hover {
+    text-decoration: underline;
+}
+
+/* Dashboard Page Background */
+.dashboard {
+    background-image: url('https://plus.unsplash.com/premium_photo-1725708358944-844db020a73a?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: rgb(181, 142, 14);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.dashboard h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-family: 'Press Start 2P', cursive;  
+}
+
+.dashboard-blocks {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.dashboard-block {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+}
+
+.dashboard-block h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-family: 'Press Start 2P', cursive;  
+}
+
+.dashboard-block button,
+.dashboard-block select {
+    padding: 12px;
+    width: 200px;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.dashboard-block button {
+    background-color: #8f1406;
+    color: #8f1406;
+    border: none;
+    cursor: pointer;
+}
+
+.dashboard-block button:hover {
+    background-color: #8f1406;
+}
+
+.dashboard-block select {
+    font-size: 18px;
+}
+.dashboard-block button,
+.dashboard-block input {
+    padding: 12px;
+    width: 80%;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.dashboard-block button {
+    background-color: #880f0f;
+    color: rgb(237, 200, 200);
+    border: none;
+    cursor: pointer;
+}
+
+
+.dashboard-block input {
+    font-size: 18px;
+    border: 1px solid #e6d7d7;
+    border-radius: 5px;
+}
+
+
+/* Create Pod Page Styling */
+.create-pod {
+    background-image: url('https://static.wixstatic.com/media/495c27_5de9c3ba86004051aca7e51fb6d2934f~mv2.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.create-pod-container {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 15px;
+    width: 400px;
+}
+
+.create-pod-container h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.form-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.form-section label {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.form-section input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.form-section button {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    color: white;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-section button:hover {
+    background-color: #45a049;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PeerQuest - Home</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">PeerQUEST</div>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/login">Login</a></li>
+                <li><a href="/register">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <header class="hero">
+                <div class="hero-content">
+                    <h1>WELCOME TO PEERQUEST</h1>
+                    <p>          Learning alone, still? <br>From Solo to Squad— Unite, Learn, Conquer!</p>
+                </div>
+            </header>
+        
+            <!-- Login/Register Section (Redirect to login.html) -->
+            <div id="login-register" class="container">
+                <a href="/login" class="btn">Login / Register</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 PeerQuest. All rights reserved.</p>
+    </footer>
+</body>
+</html>
